@@ -1,6 +1,6 @@
 import React, { StrictMode } from 'react'
-import ReactDOM, { createRoot } from 'react-dom/client'
-import {BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes} from 'react-router-dom'
+import { createRoot } from 'react-dom/client'
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 import Hangman from './games/Hangman.jsx'
